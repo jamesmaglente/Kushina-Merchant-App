@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.kushina.merchant.android.navigations.dashboard.DashboardFragment"
+        android:label="@string/menu_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/nav_leaderboard"
+        android:name="com.kushina.merchant.android.navigations.leaderboard.LeaderBoardFragment"
+        android:label="@string/menu_leaderboard"
+        tools:layout="@layout/fragment_leader_board" />
+
+    <fragment
+        android:id="@+id/nav_users"
+        android:name="com.kushina.merchant.android.navigations.users.UsersFragment"
+        android:label="@string/menu_users"
+        tools:layout="@layout/fragment_users" />
+
+    <fragment
+        android:id="@+id/nav_categories"
+        android:name="com.kushina.merchant.android.navigations.categories.CategoriesFragment"
+        android:label="@string/menu_categories"
+        tools:layout="@layout/fragment_categories" />
+
+    <fragment
+        android:id="@+id/nav_items"
+        android:name="com.kushina.merchant.android.navigations.items.ItemsFragment"
+        android:label="@string/menu_items"
+        tools:layout="@layout/fragment_items" />
+
+    <fragment
+        android:id="@+id/nav_deposits"
+        android:name="com.kushina.merchant.android.navigations.deposits.DepositsFragment"
+        android:label="@string/menu_deposits"
+        tools:layout="@layout/fragment_deposits" />
+
+    <fragment
+        android:id="@+id/nav_vouchers"
+        android:name="com.kushina.merchant.android.navigations.vouchers.VouchersFragment"
+        android:label="@string/menu_vouchers"
+        tools:layout="@layout/fragment_vouchers" />
+
+    <fragment
+        android:id="@+id/nav_orders"
+        android:name="com.kushina.merchant.android.navigations.orders.OrdersFragment"
+        android:label="@string/menu_orders"
+        tools:layout="@layout/fragment_orders" />
+
+    <fragment
+        android:id="@+id/nav_withdrawals"
+        android:name="com.kushina.merchant.android.navigations.withdrawals.WithdrawalsFragment"
+        android:label="@string/menu_withdrawals"
+        tools:layout="@layout/fragment_withdrawals" />
+
+</navigation>

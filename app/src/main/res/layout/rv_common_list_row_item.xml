@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    android:background="@android:color/transparent"
+
+    >
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginRight="20dp"
+            android:gravity="end"
+            android:id="@+id/tv_common_list_status"
+            android:layout_weight="1"
+            android:textColor="@color/colorTitle"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:text="Status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+
+                    android:id="@+id/tv_common_list_description"
+                    android:layout_weight="1"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/colorTitle"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:text="Description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+
+                <ImageView
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="4"
+                    android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+
+                </ImageView>
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorTitle"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

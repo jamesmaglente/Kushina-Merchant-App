@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navigations.deposits.DepositsFragment">
+
+  <LinearLayout
+      android:layout_marginHorizontal="10dp"
+      android:layout_marginTop="15dp"
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <LinearLayout
+          android:visibility="gone"
+          android:layout_marginTop="120dp"
+          android:orientation="vertical"
+          android:id="@+id/ll_no_history_yet"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+          <ImageView
+              android:src="@drawable/ic_history_black_24dp"
+              android:layout_width="match_parent"
+              android:layout_height="80dp">
+
+          </ImageView>
+
+          <TextView
+              android:textSize="15sp"
+              android:layout_marginTop="10dp"
+              android:textColor="@color/colorTitle"
+              android:textStyle="bold"
+              android:gravity="center"
+              android:text="You don't have any deposits yet."
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+          </TextView>
+
+
+
+      </LinearLayout>
+
+
+      <androidx.recyclerview.widget.RecyclerView
+          android:id="@+id/rv_deposit_history"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+      </androidx.recyclerview.widget.RecyclerView>
+
+  </LinearLayout>
+
+</RelativeLayout>

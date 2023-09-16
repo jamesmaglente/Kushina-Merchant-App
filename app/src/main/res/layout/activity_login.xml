@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    tools:context="com.kushina.merchant.android.LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:paddingTop="10dp"
+                android:background="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="start"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:text="Already Have an Account?"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_marginLeft="20dp"
+                        android:tint="@color/colorWhite"
+                        android:src="@drawable/ic_person_black_24dp"
+                        android:layout_weight="1.5"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+
+
+                    </ImageView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_marginTop="-8dp"
+                android:src="@drawable/ic_wave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginHorizontal="40dp"
+                android:id="@+id/til_login_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipChildren="false"
+                app:hintTextColor="@color/colorTitle">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/edt_login_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorTitle"
+                    android:translationY="3dp"
+                    android:paddingTop="@dimen/activity_vertical_margin"
+                    android:background="@drawable/round_border"
+                    android:drawableLeft="@drawable/ic_email_login"
+                    android:drawablePadding="10dp"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:padding="12dp"
+                    android:singleLine="true"
+                    android:textColor="@color/colorTitle"
+                    app:hintTextColor="@color/colorTitle">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_login_password"
+                android:layout_width="match_parent"
+                android:clipChildren="false"
+                android:layout_marginHorizontal="40dp"
+                app:hintTextColor="@color/colorTitle"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:drawablePadding="10dp"
+                    android:drawableLeft="@drawable/ic_lock_login"
+                    android:hint="Password"
+                    android:layout_marginBottom="10dp"
+                    android:padding="12dp"
+                    android:translationY="3dp"
+                    android:textColor="@color/colorTitle"
+                    app:hintTextColor="@color/colorTitle"
+                    android:singleLine="true"
+
+                    android:background="@drawable/round_border"
+                    android:id="@+id/edt_login_password"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btn_login"
+                android:textSize="16sp"
+                android:text="Login"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:layout_marginHorizontal="30dp"
+                android:background="@drawable/round_bg"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+            </Button>
+
+            <TextView
+                android:id="@+id/btn_login_forgot_password"
+                android:textSize="16sp"
+                android:textColor="@color/colorTitle"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="FORGOT PASSWORD?"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_or"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:text="OR"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/btn_login_create_account"
+                android:textSize="16sp"
+                android:textColor="@color/colorTitle"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="CREATE ACCOUNT"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="v0.0.0.0.0"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:paddingBottom="60dp"/>
+
+</RelativeLayout>

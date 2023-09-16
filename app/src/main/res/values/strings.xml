@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Kushina Merchant</string>
+    <string name="title_activity_main">Kushina Merchant</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Kushina Merchant</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_notifications">Notifications</string>
+
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_leaderboard">Leaderboard</string>
+    <string name="menu_users">Users</string>
+    <string name="menu_categories">Categories</string>
+    <string name="menu_items">Items</string>
+    <string name="menu_deposits">Deposits</string>
+    <string name="menu_vouchers">Vouchers</string>
+    <string name="menu_orders">Orders</string>
+    <string name="menu_withdrawals">Withdrawals</string>
+    <string name="menu_logout">Logout</string>
+
+    <!-- Error Messages-->
+    <string name="err_msg_email">Email is required</string>
+    <string name="err_msg_new_password">New Password is required</string>
+    <string name="err_msg_old_password">Old Password is required</string>
+    <string name="err_msg_password">Password is required</string>
+    <string name="err_msg_confirm_password">Confirm Password is required</string>
+    <string name="err_msg_first_name">First Name is required</string>
+    <string name="err_msg_last_name">Last Name is required</string>
+    <string name="err_msg_mobile">Mobile Number is required</string>
+    <string name="err_msg_valid_email">Enter a valid email</string>
+    <string name="err_msg_password_not_match">Passwords do not match</string>
+
+    <string name="err_msg_category_name">Category Name is required</string>
+
+    <!-- Address Error Messages-->
+    <string name="err_msg_address_title">Title is required</string>
+    <string name="err_msg_address_dropoff_name">Dropoff customer name is required</string>
+    <string name="err_msg_address_dropoff_number">Dropoff contact number is required</string>
+    <string name="err_msg_address_house_address">House Address is required</string>
+    <string name="err_msg_address_zip_code">Zip code is required</string>
+    <string name="err_msg_address_landmarks">Landmarks is required</string>
+
+    <!--    E-Cash Error Messages-->
+    <string name="err_msg_amount">Amount is required</string>
+
+
+    <!-- Items Adding Error Messages-->
+    <string name="err_msg_items_name">Item name is required</string>
+    <string name="err_msg_items_price">Item price is required</string>
+    <string name="err_msg_items_quantity">Quantity is required</string>
+    <string name="err_msg_items_toque">Toque is required</string>
+    <string name="err_msg_items_description">Description is required</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

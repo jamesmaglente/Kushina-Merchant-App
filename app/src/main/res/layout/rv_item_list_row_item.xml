@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true"
+    android:background="@android:color/transparent"
+
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_items_list_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:paddingVertical="5dp"
+            android:src="@drawable/applogo">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:gravity="end"
+                android:id="@+id/tv_items_list_status"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:text="None"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/tv_items_list_item_name"
+                android:text="Item Name"
+                android:textSize="13sp"
+                android:textColor="@color/colorTitle"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_items_list_item_price"
+                android:text="Item Name"
+                android:textSize="12sp"
+                android:textColor="@color/colorTitle"
+                android:textStyle="bold|italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:visibility="gone"
+                    android:layout_weight="1"
+                    android:layout_marginTop="8dp"
+                    android:gravity="start"
+                    android:textStyle="bold|italic"
+                    android:text="Click to see more info"
+                    android:textSize="11sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="8dp"
+                    android:gravity="end"
+                    android:id="@+id/tv_items_list_qty"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="None"
+                    android:textSize="11sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

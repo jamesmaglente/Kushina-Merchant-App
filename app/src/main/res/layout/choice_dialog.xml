@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/dialog_container"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="12dp"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_gravity="top"
+                android:maxHeight="50dp"
+                android:paddingVertical="5dp"
+                android:layout_weight="2.5"
+                android:tint="@color/colorPrimary"
+                android:src="@drawable/ic_warning"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ImageView>
+
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_dialog_title"
+                    android:textSize="16sp"
+                    android:text="Confirm"
+                    android:textColor="@color/colorTitle"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_dialog_message"
+                    android:textSize="14sp"
+                    android:text="Message"
+                    android:textColor="@color/colorTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:textSize="12sp"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_weight="1"
+                        android:id="@+id/btn_dialog_action_no"
+                        android:layout_gravity="end"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="bold"
+                        android:text="No"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:background="@drawable/round_bg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp">
+
+                    </Button>
+
+
+
+
+                    <Button
+                        android:textSize="12sp"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_weight="1"
+                        android:id="@+id/btn_dialog_action_yes"
+                        android:layout_gravity="end"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="bold"
+                        android:text="Yes"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:background="@drawable/round_bg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp">
+
+                    </Button>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

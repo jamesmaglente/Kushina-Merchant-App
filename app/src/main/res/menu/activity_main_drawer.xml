@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="@string/menu_dashboard" />
+
+        <item
+            android:id="@+id/nav_leaderboard"
+            android:icon="@drawable/ic_leaderboard"
+            android:title="@string/menu_leaderboard" />
+
+        <item android:title="Maintenance">
+            <menu>
+                <item
+                    android:id="@+id/nav_users"
+                    android:icon="@drawable/ic_group_24px"
+                    android:title="@string/menu_users" />
+                <item
+                    android:id="@+id/nav_categories"
+                    android:icon="@drawable/ic_category_24px"
+                    android:title="@string/menu_categories" />
+
+                <item
+                    android:id="@+id/nav_items"
+                    android:icon="@drawable/ic_local_pizza_24px"
+                    android:title="@string/menu_items" />
+
+                <item
+                    android:id="@+id/nav_deposits"
+                    android:icon="@drawable/ic_credit_card_24px"
+                    android:title="@string/menu_deposits" />
+
+                <item
+                    android:id="@+id/nav_vouchers"
+                    android:icon="@drawable/ic_card_giftcard_24px"
+                    android:title="@string/menu_vouchers" />
+
+                <item
+                    android:id="@+id/nav_orders"
+                    android:icon="@drawable/ic_list_alt_24px"
+                    android:title="@string/menu_orders" />
+
+                <item
+                    android:id="@+id/nav_withdrawals"
+                    android:icon="@drawable/ic_arrrow_left"
+                    android:title="@string/menu_withdrawals" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_power_settings_new_24px"
+                    android:title="@string/menu_logout" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

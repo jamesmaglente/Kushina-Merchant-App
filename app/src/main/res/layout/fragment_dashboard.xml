@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@drawable/less_roundish_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:text="TOTAL SALES"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:gravity="end"
+                    android:id="@+id/tv_dashboard_total_sales"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:text="₱ 00.00"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@drawable/less_roundish_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:text="TOTAL INCOME"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:gravity="end"
+                    android:id="@+id/tv_dashboard_total_income"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:text="₱ 00.00"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@drawable/less_roundish_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:text="TOTAL COMMISSIONS GIVEN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:gravity="end"
+                    android:id="@+id/tv_dashboard_total_commissions"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:text="₱ 00.00"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@drawable/less_roundish_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:text="TOTAL SYSTEM FEE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:gravity="end"
+                    android:id="@+id/tv_dashboard_total_system_fee"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:text="₱ 00.00"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@drawable/less_roundish_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:text="TOTAL DISCOUNTS GIVEN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tv_dashboard_total_discounts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:gravity="end"
+                    android:text="₱ 00.00"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@drawable/less_roundish_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:text="TOTAL TAX COLLECTED"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:gravity="end"
+                    android:id="@+id/tv_dashboard_total_tax_collected"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:text="₱ 00.00"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <View
+
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorTitle"/>
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@drawable/less_roundish_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:text="TOTAL OVERALL ORDERS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:gravity="end"
+                    android:id="@+id/tv_dashboard_total_orders"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:text="0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@drawable/less_roundish_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:text="TOTAL CUSTOMERS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:gravity="end"
+                    android:id="@+id/tv_dashboard_total_customers"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:text="0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@drawable/less_roundish_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:text="TOTAL PENDING ORDERS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:gravity="end"
+                    android:id="@+id/tv_dashboard_total_pending_orders"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:text="0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@drawable/less_roundish_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:text="TOTAL ONGOING ORDERS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:gravity="end"
+                    android:id="@+id/tv_dashboard_total_ongoing_orders"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:text="0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@drawable/less_roundish_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:text="TOTAL DELIVERED ORDERS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:gravity="end"
+                    android:id="@+id/tv_dashboard_total_delivered_orders"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:text="0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@drawable/less_roundish_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:text="TOTAL CANCELLED ORDERS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:gravity="end"
+                    android:id="@+id/tv_dashboard_total_cancelled_orders"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="20dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:text="0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:text="LEADERBOARD"
+            android:textStyle="bold"
+            android:textColor="@color/colorTitle"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical"
+            android:id="@+id/ll_no_rankings_yet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/ic_history_black_24dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+            </ImageView>
+
+            <TextView
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorTitle"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="No rankings yet."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+
+        </LinearLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:visibility="gone"
+            android:id="@+id/rv_leaderboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+        </Space>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+<!--    <ImageView-->
+<!--        android:id="@+id/iv_icon"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:src="@drawable/ic_dashboard_black_24dp"-->
+<!--        />-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/iv_icon"-->
+<!--        android:text="Under Development"-->
+<!--        android:textAlignment="center"/>-->
+
+
+</RelativeLayout>

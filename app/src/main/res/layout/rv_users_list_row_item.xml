@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true"
+    android:background="@android:color/transparent"
+
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:gravity="end"
+                android:id="@+id/tv_users_list_status"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:text="None"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_weight="2"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="Full Name:"
+                    android:textSize="13sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/tv_users_list_full_name"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorTitle"
+                    android:text="None"
+                    android:textSize="13sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_weight="2"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="Email:"
+                    android:textSize="13sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/tv_users_list_email"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorTitle"
+                    android:text="None"
+                    android:textSize="13sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_weight="2"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="Mobile:"
+                    android:textSize="13sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/tv_users_list_mobile"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorTitle"
+                    android:text="None"
+                    android:textSize="13sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_weight="2"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="Membership Type:"
+                    android:textSize="13sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/tv_users_list_membership_type"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorTitle"
+                    android:text="None"
+                    android:textSize="13sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_weight="2"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="Group Name:"
+                    android:textSize="13sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/tv_users_list_group_name"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorTitle"
+                    android:text="None"
+                    android:textSize="13sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_helper_text"
+                    android:layout_weight="1"
+                    android:layout_marginTop="8dp"
+                    android:gravity="start"
+                    android:textStyle="bold|italic"
+                    android:text="Click to disable this user"
+                    android:textSize="11sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_marginTop="8dp"
+                    android:gravity="end"
+                    android:id="@+id/tv_users_list_date"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="None"
+                    android:textSize="11sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
